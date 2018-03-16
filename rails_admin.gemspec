@@ -14,7 +14,13 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'kaminari', '>= 0.14', '< 2.0'
   spec.add_dependency 'nested_form', '~> 0.3'
   spec.add_dependency 'rack-pjax', '>= 0.7'
-  spec.add_dependency 'rails', ['>= 4.0', '< 6']
+  spec.add_dependency "activesupport"
+  spec.add_dependency "actionpack"
+  spec.add_dependency "actionview"
+  spec.add_dependency "activemodel"
+  spec.add_dependency "activerecord"
+  spec.add_dependency "actionmailer"
+  spec.add_dependency "railties"  
   spec.add_dependency 'remotipart', '~> 1.3'
   spec.add_dependency 'sass-rails', ['>= 4.0', '< 6']
   spec.add_development_dependency 'bundler', '~> 1.0'
